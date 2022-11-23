@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dumpster
+* source:	https://sketchfab.com/3d-models/dumpster-23f0a1c5875b435fa2933e7ea8157fdf
+* author:	Romain PERRONE (https://sketchfab.com/ob1style)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dumpster" (https://sketchfab.com/3d-models/dumpster-23f0a1c5875b435fa2933e7ea8157fdf) by Romain PERRONE (https://sketchfab.com/ob1style) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

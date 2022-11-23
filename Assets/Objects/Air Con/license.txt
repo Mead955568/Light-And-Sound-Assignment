@@ -1,0 +1,11 @@
+Model Information:
+* title:	Air Con
+* source:	https://sketchfab.com/3d-models/air-con-2cd7c3632f5e44d6ad6b575a5871a79d
+* author:	Cesarsama (https://sketchfab.com/Cesarsama)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Air Con" (https://sketchfab.com/3d-models/air-con-2cd7c3632f5e44d6ad6b575a5871a79d) by Cesarsama (https://sketchfab.com/Cesarsama) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

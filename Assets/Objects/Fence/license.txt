@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wooden Fences  [Low Poly]
+* source:	https://sketchfab.com/3d-models/wooden-fences-low-poly-1db7df90770e44128bc154a96bc0fe4c
+* author:	MrUnity (https://sketchfab.com/MrUnityCreations)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wooden Fences  [Low Poly]" (https://sketchfab.com/3d-models/wooden-fences-low-poly-1db7df90770e44128bc154a96bc0fe4c) by MrUnity (https://sketchfab.com/MrUnityCreations) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
