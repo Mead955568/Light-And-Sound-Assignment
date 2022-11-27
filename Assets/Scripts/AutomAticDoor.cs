@@ -7,6 +7,8 @@ public class AutomAticDoor : MonoBehaviour
 
     public GameObject movingDoorL;
     public GameObject movingDoorR;
+    public GameObject soundO;
+    public GameObject soundC;
 
     public float maximumOpeningL = 10f;
     public float maximumClosingL = 0f;
