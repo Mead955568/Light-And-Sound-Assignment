@@ -6,45 +6,25 @@ using UnityEngine.Events;
 
 public class Sink : MonoBehaviour
 {
-    public GameObject button;
-    public GameObject Partical;
-    public UnityEvent onPress;
-    public UnityEvent onRelease;
-    public ParticleSystem water;
-    AudioSource sound;
-    GameObject presser;
-    bool isPressed;
+    public GameObject particals;
+    public bool toggle;
+    public AudioSource sinkSound;
 
     // Start is called before the first frame update
-    void Start()
-    {
-        sound = GetComponent<AudioSource>();
-        isPressed = false;
-        water.Stop();
-        Partical.SetActive(false);
-    }
 
-    // Update is called once per frame
-
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (!isPressed)
+        if (toggle == false)
         {
-            onPress.Invoke();
-            sound.Play();
-            isPressed = true;
-            water.Play();
-            Partical.SetActive(true);
+            particals.SetActive(true);
+            toggle = true;
+            sinkSound.Play();
         }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other == presser)
+        else
         {
-            onRelease.Invoke();
-            isPressed = false;
-            water.Stop();
-            Partical.SetActive(false);
+            particals.SetActive(false);
+            toggle = false;
+            sinkSound.Stop();
         }
     }
 }
