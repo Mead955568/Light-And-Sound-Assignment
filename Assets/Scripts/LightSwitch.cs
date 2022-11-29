@@ -15,6 +15,8 @@ public class LightSwitch : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log("LightHit");
+
         if (toggle == false)
         {
             lightOn.SetActive(true);
@@ -23,7 +25,7 @@ public class LightSwitch : MonoBehaviour
             switchSound.Play();
             Debug.Log("LightOn");
         }
-        if (toggle == true)
+        else
         {
             lightOff.SetActive(true);
             lightOn.SetActive(false);

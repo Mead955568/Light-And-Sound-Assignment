@@ -14,6 +14,9 @@ public class DoorLeft : MonoBehaviour
     public Transform doorBody2;
     bool open = false;
 
+    public AudioSource doorOpen;
+    public AudioSource doorClose;
+
     Vector3 defaultDoorPosition;
     Vector3 currentDoorPosition;
     Vector3 defaultDoorPosition2;
@@ -70,6 +73,7 @@ public class DoorLeft : MonoBehaviour
             currentDoorPosition = doorBody.localPosition;
             currentDoorPosition2 = doorBody2.localPosition;
             openTime = 0;
+            doorOpen.Play();
         }
     }
 
@@ -82,6 +86,7 @@ public class DoorLeft : MonoBehaviour
             currentDoorPosition = doorBody.localPosition;
             currentDoorPosition2 = doorBody2.localPosition;
             openTime = 0;
+            doorClose.Play();
         }
     }
 }
