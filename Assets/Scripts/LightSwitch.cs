@@ -19,7 +19,7 @@ public class LightSwitch : MonoBehaviour
 
         if (toggle == false)
         {
-            lightOn.SetActive(true);
+            lightOn.SetActive(true); // Switch between different GameObject
             lightOff.SetActive(false);
             toggle = true;
             switchSound.Play();
@@ -27,7 +27,7 @@ public class LightSwitch : MonoBehaviour
         }
         else
         {
-            lightOff.SetActive(true);
+            lightOff.SetActive(true); // Switch between differnt GameObject
             lightOn.SetActive(false);
             toggle = false;
             switchSound.Play();

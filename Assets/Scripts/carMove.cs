@@ -22,7 +22,7 @@ public class carMove : MonoBehaviour
         // Moves the object backwards at 15 units per second.
         car.transform.Translate(Vector3.back * movementSpeed * Time.deltaTime);
 
-        if(carIsHere == true)
+        if(carIsHere == true) // Teleports the car if it collidies with "Car tag"
         {
             transform.position = new Vector3(3.5f, 0, 50);
             car.transform.Translate(Vector3.back * movementSpeed * Time.deltaTime);

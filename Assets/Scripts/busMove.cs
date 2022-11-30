@@ -23,7 +23,7 @@ public class busMove : MonoBehaviour
         // Moves the object backwards at 10 units per second.
         bus.transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
 
-        if (busIsHere == true)
+        if (busIsHere == true) // Teleports the Bus if it hits "Car2" tag
         {
             transform.position = new Vector3(6.5f, 0, -15);
             bus.transform.Translate(Vector3.back * movementSpeed * Time.deltaTime);

@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class DoorLeft : MonoBehaviour
 {
-    public AnimationCurve openSpeedCurve = new AnimationCurve(new Keyframe[] { new Keyframe(0, 1, 0, 0), new Keyframe(0.8f, 1, 0, 0), new Keyframe(1, 0, 0, 0) }); //Contols the open speed at a specific time (ex. the door opens fast at the start then slows down at the end)
+    public AnimationCurve openSpeedCurve = new AnimationCurve(new Keyframe[] { new Keyframe(0, 1, 0, 0), new Keyframe(0.8f, 1, 0, 0), new Keyframe(1, 0, 0, 0) }); //Contols the open speed at a specific time
     public enum OpenDirection { x, y, z }
     public OpenDirection direction = OpenDirection.y;
-    public float openDistance = 3f; //How far should door move
+    public float openDistance = 3f; // How far should door move
     public float openDistance2 = 3f;
-    public float openSpeedMultiplier = 2.0f; //Value for door speed
-    public Transform doorBody; //Door body Transform
-    public Transform doorBody2;
+    public float openSpeedMultiplier = 2.0f; // Value for door speed
+    public Transform doorBody; // Left door body Transform
+    public Transform doorBody2; // Right door boby Transform
     bool open = false;
 
     public AudioSource doorOpen;
@@ -28,18 +28,18 @@ public class DoorLeft : MonoBehaviour
     {
         if (doorBody)
         {
-            defaultDoorPosition = doorBody.localPosition;
+            defaultDoorPosition = doorBody.localPosition; // Sets the doors origin position 
             defaultDoorPosition2 = doorBody2.localPosition;
         }
 
-        //Set Collider as trigger
+        // Set Collider as trigger
         GetComponent<Collider>().isTrigger = true;
     }
 
     // Main function
     void Update()
     {
-        if (!doorBody)
+        if (!doorBody) // if statment to move each door
             return;
 
         if (openTime < 1)
@@ -72,7 +72,7 @@ public class DoorLeft : MonoBehaviour
             open = true;
             currentDoorPosition = doorBody.localPosition;
             currentDoorPosition2 = doorBody2.localPosition;
-            openTime = 0;
+            openTime = 0; // Activates the earlier "if" statement
             doorOpen.Play();
         }
     }
