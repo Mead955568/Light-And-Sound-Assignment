@@ -4,6 +4,8 @@
 
 This is a released project produced by James Mead 955568 at Swansea University for the VR MSc
 
+This is a simple scene showing an example of a street with moving cars with a shop where the user can enter and interact with serval objects on shelves, while also having a fully interactible bathroom.
+
 This project has a number of features:
 
 -It has an automatic sliding door
